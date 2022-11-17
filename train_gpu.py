@@ -242,7 +242,7 @@ if __name__ == "__main__":
 
     expr.add_argument('--dataset_dir', type=str, help='path of dataset', default='../dataset/S3DIS')
 
-    expr.add_argument('--outputs_dir', type=str, help='path of output', default='outputs')
+    expr.add_argument('--outputs_dir', type=str, help='path of output', default='./outputs')
 
     expr.add_argument('--val_area', type=str, help='area to validate', default='Area_5')
 
