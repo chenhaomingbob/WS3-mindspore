@@ -84,6 +84,7 @@ python train_modelarts_notebook_remove_bias.py \
 python eval_modelarts_notebook_remove_bias.py \
 --dataset_dir ../dataset/S3DIS \
 --device_target Ascend \
+--float16 True \
 --model_path ./outputs/BatchS_6_Float16_PyNative_Ascend
 ```
 
