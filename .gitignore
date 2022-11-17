@@ -1,0 +1,14 @@
+.idea
+data/S3DIS_dataset_v1.py
+model/model_s3dis_bak_run_in_graph_model_without_splos.py
+model/model_s3dis_bak.py
+#./data/S3DIS_dataset_v1.py
+#./model/model_s3dis_bak_run_in_graph_model_without_splos.py
+train_12.py
+train_modelarts.py
+train_modelarts_bak.py
+train_modelarts_notebook.py
+train_modelarts_notebook_v2.py
+README_old.md
+ModelArts-region-profile.yaml
+train_modelarts_notebook_v3_remove_bias.py
