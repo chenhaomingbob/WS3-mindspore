@@ -44,9 +44,7 @@ WS3_Project # WS3项目路径
 
 ## 方式2. 从S3DIS官方下载数据集，并执行数据处理
 
-1.
-可在 [S3DIS链接](https://docs.google.com/forms/d/e/1FAIpQLScDimvNMCGhy_rmBA2gHfDu3naktRm6A8BPwAWWDv-Uhm6Shw/viewform?c=0&w=1)
-找到数据集 ，下载`Stanford3dDataset_v1.2_Aligned_Version.zip`
+1. S3DIS数据集的链接在 [链接](https://docs.google.com/forms/d/e/1FAIpQLScDimvNMCGhy_rmBA2gHfDu3naktRm6A8BPwAWWDv-Uhm6Shw/viewform?c=0&w=1) ，下载`Stanford3dDataset_v1.2_Aligned_Version.zip`
 2. 将`Stanford3dDataset_v1.2_Aligned_Version.zip`解压至`dataset/S3DIS`目录下.
 3. 安装依赖:
 
