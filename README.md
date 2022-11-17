@@ -1,5 +1,6 @@
 # Weakly Supervised Semantic Segmentation for Large-Scale Point Cloud (AAAI 2021, Mindspore)
 
+# 论文
 - [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16455)
 
 # 环境配置
@@ -8,7 +9,6 @@
 - mindspore == 1.7
 
 ```shell
-cd {WS3的项目目录}
 pip install -r requirements.txt
 bash local_install_third_part.sh
 ```
@@ -117,7 +117,7 @@ python eval_modelarts_notebook_remove_bias.py \
 
 # GPU环境下训练和验证
 
-## 训练
+### 训练
 
 ```shell
 python train_gpu.py \
@@ -127,7 +127,7 @@ python train_gpu.py \
 --name BatchS_6_Float32_PyNative_GPU
 ```
 
-## 验证
+### 验证
 
 ```shell
 python eval_gpu.py \
