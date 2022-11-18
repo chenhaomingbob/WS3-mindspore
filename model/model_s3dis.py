@@ -230,7 +230,6 @@ class RandLA_S3DIS_WithLoss(nn.Cell):
         # CE_loss = P.ReduceSum()(weighted_loss).sum()
         CE_loss = CE_loss / num_valid_points
         ###
-
         if self.c_epoch_k == 0:
             loss = CE_loss
             self.CE_LOSS = CE_loss
@@ -246,7 +245,6 @@ class RandLA_S3DIS_WithLoss(nn.Cell):
         return loss
 
     @staticmethod
-    @ms_function()
     def get_sp_loss_by_mask(embed, logits, one_hot_label, valid_mask, topk):
         """
 
@@ -315,7 +313,6 @@ class RandLA_S3DIS_WithLoss(nn.Cell):
         return loss
 
     @staticmethod
-    @ms_function()
     def double_feature(point_feature1, point_feature2):
         """
         Compute pairwise distance of a point cloud.
